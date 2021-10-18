@@ -67,19 +67,19 @@
                 (window.matchMedia("(min-width: 768px) and (max-width: 1030px)"),
                     window.matchMedia("(min-width: 1030px)"),
                     [
-                        "img/brands/lenovo.svg",
-                        "img/brands/samsung.svg",
-                        "img/brands/apple.svg",
-                        "img/brands/viewsonic.svg",
-                        "img/brands/bosch.svg",
-                        "img/brands/hp.svg",
-                        "img/brands/acer.svg",
-                        "img/brands/sony.svg",
+                        "img/lenovo.svg",
+                        "img/samsung.svg",
+                        "img/apple.svg",
+                        "img/viewsonic.svg",
+                        "img/bosch.svg",
+                        "img/hp.svg",
+                        "img/acer.svg",
+                        "img/sony.svg",
                     ]),
             s = [
-                "img/brands/lenovo.svg",
-                "img/brands/samsung.svg",
-                "img/brands/apple.svg",
+                "img/lenovo.svg",
+                "img/samsung.svg",
+                "img/apple.svg",
             ],
             l = function (e, t) {
                 var n = document.createElement("div"),
@@ -140,4 +140,3 @@
     },
     function (e, t, n) {},
 ]);
-//# sourceMappingURL=bundle.js.map
