@@ -1,35 +1,81 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Webpack 4 Starter</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
-  <link href="css\style.css" rel="stylesheet"></head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
 <body>
-<div class="brands">
+<section class="brands">
   <div class="brands__title title">
-    <h1 class="title__header">Ремонт техники различных брендов</h1>
+    <h2 class="title__text">Ремонт техники различных брендов</h2>
   </div>
-
-  <div class="swiper-container" data-mobile="false">
-
-    <div class="swiper-wrapper">
-
-
+  <div class="brands_container">
+    <div class="swiper-container swiper-collapsed" id="swiper-container">
+      <div class="brands__cards cards swiper-wrapper">
+        <div class="cards__item card">
+          <img src="img/lenovo.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/samsung.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/apple.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/viewsonic.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/bosch.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/hp.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/acer.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/sony.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/lenovo.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/samsung.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+        <div class="cards__item card">
+          <img src="img/apple.svg" alt="" class="card__img" />
+          <button class="card__button button" type="button"></button>
+        </div>
+      </div>
+      <span class="fade"></span>
+      <div class="swiper-pagination"></div>
     </div>
-
-    <div class="swiper-pagination"></div>
+    <button
+            class="brands__show-more show-more"
+            onclick="expand()"
+            id="show-more"
+            type="button"
+    >
+      Показать всe
+    </button>
   </div>
-
-  <div class="brands__expand expand" data-expanded="false">
-    <img class="expand__arrows" src="img/expand.svg" alt="">
-    <div class="expand__text">Показать все</div>
-  </div>
-</div>
-
-<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-<script type="text/javascript" src="./js/main.js"></script></body>
+</section>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
 </html>
