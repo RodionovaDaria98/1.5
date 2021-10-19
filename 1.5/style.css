@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url("fonts/TTLakes-Bold.eot");
-    src: local("TT Lakes Bold"), local("../fonts/TTLakes/TTLakes-Bold"), url("/fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/TTLakes-Bold.woff") format("woff"), url("/fonts/TTLakes-Bold.ttf") format("truetype");
+    src: local("TT Lakes Bold"), local("/fonts/TTLakes-Bold"), url("/fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/TTLakes-Bold.woff") format("woff"), url("/fonts/TTLakes-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url("/fonts/TTLakes-Medium.eot");
-    src: local("TT Lakes Medium"), local("../fonts/TTLakes/TTLakes-Medium"), url("/fonts/TTLakes-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/TTLakes-Medium.woff") format("woff"), url("/fonts/TTLakes-Medium.ttf") format("truetype");
+    src: local("TT Lakes Medium"), local("/fonts/TTLakes-Medium"), url("/fonts/TTLakes-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/TTLakes-Medium.woff") format("woff"), url("/fonts/TTLakes-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url("fonts/TTLakes-Regular.eot");
-    src: local("TT Lakes Regular"), local("../fonts/TTLakes/TTLakes-Regular"), url("fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/TTLakes-Regular.woff") format("woff"), url("fonts/TTLakes-Regular.ttf") format("truetype");
+    src: local("TT Lakes Regular"), local("/fonts/TTLakes-Regular"), url("fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/TTLakes-Regular.woff") format("woff"), url("fonts/TTLakes-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -101,7 +101,7 @@ body {
     height: 40px;
     border: 2px solid #ff3e79;
     border-radius: 20px;
-    background: url(/img/expand.svg) center no-repeat;
+    background: url(/img/arrow.svg) center no-repeat;
     cursor: pointer;
     -webkit-transition: background-color 0.25s ease;
     -o-transition: background-color 0.25s ease;
