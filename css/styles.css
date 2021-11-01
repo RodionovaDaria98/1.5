@@ -106,15 +106,14 @@ body {
   -webkit-transition: background-color 0.25s ease;
   -o-transition: background-color 0.25s ease;
   transition: background-color 0.25s ease;
+
 }
 
 .card:hover > .button {
-  background-color: rgba(255, 62, 121, 0.25);
-  -webkit-transition: background-color 0.25s ease, -webkit-transform 0.25s ease;
-  transition: background-color 0.25s ease, -webkit-transform 0.25s ease;
-  -o-transition: transform 0.25s ease, background-color 0.25s ease;
-  transition: transform 0.25s ease, background-color 0.25s ease;
-  transition: transform 0.25s ease, background-color 0.25s ease, -webkit-transform 0.25s ease;
+  -o-transition: transform 0.25s ease;
+  transition: transform 0.25s ease;
+  transition: transform 0.25s ease,  -webkit-transform 0.25s ease;
+  transform: scale(1.05) rotate(90deg);
 }
 
 .show-more {
@@ -236,7 +235,7 @@ body {
   .cards {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
+
         grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     row-gap: 16px;
@@ -276,7 +275,7 @@ body {
   .cards {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[4];
+
         grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     row-gap: 16px;
